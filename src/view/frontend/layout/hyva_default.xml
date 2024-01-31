@@ -3,7 +3,7 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="script-alpine-js">
-            <block name="alpine-plugin-persist" template="FriendsOfHyva_AlpineJsPersist::page/js/plugins/persist.phtml"/>
+            <block name="alpine-plugin-collapse" template="Swd_AlpineJsCollapse::page/js/plugins/collapse.phtml"/>
         </referenceBlock>
     </body>
 </page>

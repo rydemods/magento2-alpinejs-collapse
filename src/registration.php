@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'FriendsOfHyva_AlpineJsPersist', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Swd_AlpineJsCollapse', __DIR__);

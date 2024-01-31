@@ -1,8 +1,8 @@
 {
-    "name": "friends-of-hyva/magento2-alpinejs-persist",
-    "description": "Integrate the AlpineJS persist plugin into Hyvä",
+    "name": "swd/magento2-alpinejs-collapse",
+    "description": "Integrate the AlpineJS collapse plugin into Hyvä",
     "require": {
-        "php": "~7.4|~8.1",
+        "php": "~7.4|~8.2",
         "magento/magento-composer-installer": "*",
         "hyva-themes/magento2-theme-module": "^1.2"
     },
@@ -15,7 +15,7 @@
             "src/registration.php"
         ],
         "psr-4": {
-            "Hyva\\AlpineJsPersist\\": "src/"
+            "Hyva\\AlpineJsCollapse\\": "src/"
         }
     }
 }

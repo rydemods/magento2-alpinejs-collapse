@@ -17,7 +17,7 @@ use Magento\Framework\View\Element\Template;
 // phpcs:disable Generic.Files.LineLength
 
 $themeLibrary = $viewModels->require(ThemeLibrariesConfig::class);
-$version = $themeLibrary->getVersionIdFor('persist-plugin')
+$version = $themeLibrary->getVersionIdFor('collapse-plugin')
     ?: $themeLibrary->getVersionIdFor('alpine')
         ?: '2';
 
@@ -27,4 +27,4 @@ if ($version == '2') {
 }
 
 ?>
-<?= /** @noEscape */ $block->fetchView($block->getTemplateFile("FriendsOfHyva_AlpineJsPersist::page/js/plugins/v{$version}/persist.phtml")) ?>
+<?= /** @noEscape */ $block->fetchView($block->getTemplateFile("Swd_AlpineJsCollapse::page/js/plugins/v{$version}/collapse.phtml")) ?>
