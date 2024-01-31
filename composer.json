@@ -1,5 +1,5 @@
 {
-    "name": "SeoulCommerce/magento2-alpinejs-collapse",
+    "name": "seoul-commerce/magento2-alpinejs-collapse",
     "description": "Integrate the AlpineJS collapse plugin into Hyvä",
     "require": {
         "php": "~7.4|~8.2",
