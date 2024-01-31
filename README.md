@@ -22,7 +22,7 @@ In this Alpine.js example, the count property is initialized with a default valu
 To install the FriendsOfHyva_AlpineJsPersist module via composer, run the following command:
 
 ``` bash
-composer require swd/magento2-alpinejs-collapse
+composer require SeoulCommerce/magento2-alpinejs-collapse
 ```
 
 **This module requires Hyvä theme 1.2.0 or higher and AlpineJS v3.**
